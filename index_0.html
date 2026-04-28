@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AR.js A-Frame Location-based EJEMPLO</title>
+<!-- scripts para utilizar aframe - threejs -->
+</head>
+<body>
+    <!-- crear escena ar con aframe -->
+<a-scene
+    vr-mode-ui="enabled: false"
+    arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
+    renderer="antialias: true; alpha: true">
+    <!-- crear "cámara" ligada al móvil/gps -->
+    <a-camera gps-new-camera='gpsMinDistance: 5'></a-camera>
+    <!-- crear objetos -->
+</a-scene>
+</body>
+</html>
