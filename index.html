@@ -40,7 +40,18 @@
     </a-entity>
 
     <!-- EDIFICIO B -->
-    <!-- (Faltan las coordenadas y datos de Edificio B) -->
+    <a-entity 
+        gltf-model='#marker_drop'
+        gps-new-entity-place="latitude: 19.779793; longitude: -101.136470" 
+        scale="20 20 20">
+        <a-entity 
+            text="value: Edificio B; align: center; side: double; width: 15;" 
+            position="0 1 0"
+            look-at="[gps-new-camera]">
+        </a-entity>
+    </a-entity>
+
+    <!-- AGREGAR OTROS SITIOS -->
 </a-scene>
 </body>
 </html>
